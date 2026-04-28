@@ -23,13 +23,14 @@ An automatic panorama generation tool from overlapping images. This project is i
 | **SIFT / ORB Detection** | Choose between scale-invariant (SIFT) or fast binary (ORB) descriptors. |
 | **Lowe's Ratio Test** | Robust nearest-neighbor filtering (default ratio = 0.7) for feature matching. |
 | **RANSAC Homography** | Outlier-robust planar transformation estimation using RANSAC. |
-| **Multi-band Blending** | [cite_start]Seamless intensity transitions using Laplacian pyramids to eliminate seams.  |
-| **Cylindrical Projection** | [cite_start]Reduces distortion for wide, rotation-based panoramas by warping images to a cylindrical surface.  |
+| **Multi-band Blending** | Seamless intensity transitions using Laplacian pyramids to eliminate seams.  |
+| **Cylindrical Projection** | Reduces distortion for wide, rotation-based panoramas by warping images to a cylindrical surface.  |
 | **Middle-Image Referencing** | Uses the center image as an anchor to minimize accumulated distortion. |
 
 
 ---
 ## Futurework
+
 Seam-Cutting: Implementing an optimal cut-line search (Seam-finding) to completely avoid blending artifacts in overlapping regions.
 Bundle Adjustment: Applying global optimization across all image parameters simultaneously to eliminate accumulated registration errors.
 ---
