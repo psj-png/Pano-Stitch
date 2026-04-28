@@ -30,8 +30,8 @@ An automatic panorama generation tool from overlapping images. This project is i
 
 ---
 ## Futurework
--
-Seam-Cutting: Implementing an optimal cut-line search (Seam-finding) to completely avoid blending artifacts in overlapping regions.
+
+* Seam-Cutting: Implementing an optimal cut-line search (Seam-finding) to completely avoid blending artifacts in overlapping regions.
 Bundle Adjustment: Applying global optimization across all image parameters simultaneously to eliminate accumulated registration errors.
 ---
 ## TIPS
